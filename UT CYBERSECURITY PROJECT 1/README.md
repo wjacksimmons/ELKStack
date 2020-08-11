@@ -1,6 +1,9 @@
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted in ELK_Architecture.png
+The files in this repository were used to configure the network depicted below
+
+![Architecture](https://github.com/wjacksimmons/ELKStack/blob/master/UT%20CYBERSECURITY%20PROJECT%201/ELK%20Architecture.png)
+
 
 
 
@@ -65,9 +68,7 @@ The playbook implements the following tasks:
 - Increase virtual memory
 - Download and launch a docker ELK container
 
-
-See Docker_PS.png for confirmation the ELK container is running.
-
+![Docker_PS](https://github.com/wjacksimmons/ELKStack/blob/master/UT%20CYBERSECURITY%20PROJECT%201/Docker_PS.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -88,4 +89,6 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to /etc/ansible.
 - Update the /etc/ansible/hosts file to include the [elk] group and the VM under the elk group. 
-- Run the playbook, and navigate to the load balancer ip (52.186.141.227) to check that the installation worked as expected. See dvwa.png for the success page.
+- Run the playbook, and navigate to the load balancer ip (52.186.141.227) to check that the installation worked as expected, shown below.
+
+![DVWA](https://github.com/wjacksimmons/ELKStack/blob/master/UT%20CYBERSECURITY%20PROJECT%201/DVWA.png)
